@@ -1,0 +1,58 @@
+# Never commit keys, certificates, enrollment packages or backups.
+# These guides handle secrets; this file is a safety net, not a guarantee.
+
+# Certificates and keys
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+*.jks
+*.keystore
+*.csr
+*.pol
+
+# TAK packages and server files (obtain from tak.gov; do not redistribute)
+enrollmentDP.zip
+*DP*.zip
+*.deb
+*.rpm
+*.apk
+*.aab
+*.msi
+takserver*
+CoreConfig.xml
+config.pref
+
+# Meshtastic backups and exports (contain channel keys)
+mesh-backup*
+*.yaml
+*.yml
+!.github/**/*.yml
+!.github/**/*.yaml
+
+# Offline maps and map caches (provider licences often forbid redistribution)
+*.sqlite
+*.sqlitedb
+*.mbtiles
+atlases/
+tilestore/
+
+# Credentials, environment and secrets
+.env
+.env.*
+*.secret
+secrets*
+passwords*
+*password*.txt
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
