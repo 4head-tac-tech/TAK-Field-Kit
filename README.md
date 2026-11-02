@@ -1,5 +1,7 @@
 # TAK + Mesh Network Guides
 
+Guide 5 also explains how to use the most updated version of atak and meshtastic to run a tak server through the meshtastic app if you dont want to setup a tak server on a Raspberry PI
+
 Plain-language, step-by-step guides for building a small private **TAK** (Team Awareness Kit) network at home: your own TAK Server on a Raspberry Pi, the **ATAK / WinTAK / iTAK** clients, offline maps, and a **Meshtastic** LoRa radio mesh that works with no cell or internet.
 
 Every guide includes a **common mistakes and corrections** table, a **troubleshooting** table, a **final checklist**, and a **legal notice, license and disclaimer**. All addresses, names and keys are generic placeholders such as `<PI_IP>`, `<username>` and `<PSK>`.
